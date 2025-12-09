@@ -1,12 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { API } from './api';
 
-import axios from "axios";
-
-export const API = axios.create({
-  baseURL: "http://13.233.146.34:5000"   // ← replace with YOUR backend IP
-});
-
 function Admin() {
   const [bookings, setBookings] = useState([]);
   const [stats, setStats] = useState(null);
