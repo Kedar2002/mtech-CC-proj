@@ -3,7 +3,7 @@ import { API } from './api';
 import EventCard from './components/EventCard';
 import { io } from 'socket.io-client';
 
-const socket = io('http://13.233.146.34:5000');
+const socket = io('http://52.66.252.52:5000');
 
 function Home() {
   const [event, setEvent] = useState(null);
